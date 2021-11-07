@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Required Meta -->
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1"> 
+       
+      <!-- Title -->
+       <title> MMJ | Homepage </title>
+       
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      
+      <!-- Bootstrap     -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+      <!-- Style.CSS -->
+       <link type="text/css" rel="stylesheet" href="./css/styles.css">     
+    
+    </head>
+    
+    <body>
+        <nav class="navbar" >
+          <div class="container">
+              <div class="d-flex flex-column flex-lg-row w-100">
+                   <div class="d-flex flex-wrap justify-content-between align-items-center py-3" style="height: 6rem">
+                        <div class="brand">
+                            <a href="/">
+                                <svg width="138" height="19" viewBox="0 0 138 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M105.646 0.0126953H100.833C95.513 0.0126953 95.3248 4.79071 95.3223 4.84411V13.9272C95.3248 13.9755 95.3629 15.1503 96.0597 16.3404C96.7056 17.4414 98.0558 18.7561 100.833 18.7561H105.646C110.966 18.7561 111.154 13.978 111.154 13.9246V4.84158C111.152 4.79326 111.113 3.61846 110.417 2.4284C109.773 1.32481 108.423 0.0126953 105.646 0.0126953ZM106.62 6.51731V12.2464C106.62 13.7899 106.318 14.6824 104.777 14.6824H101.707C100.166 14.6824 99.8638 13.7899 99.8638 12.2464V6.51731C99.8638 4.9738 100.166 4.08126 101.707 4.08126H104.777C106.318 4.08126 106.62 4.97635 106.62 6.51731Z" fill="#4E5FFF"/>
+    <path d="M78.0186 4.82888V13.9247C78.0211 13.973 78.0592 15.1478 78.756 16.3378C79.4019 17.4389 80.7521 18.7535 83.5264 18.7535H92.1619V14.6824H84.5995C83.4704 14.6824 82.555 13.767 82.555 12.638V6.40545C82.555 5.14419 83.5772 4.11942 84.841 4.11942H92.1619V1.01408e-06H83.5264C78.2093 -0.00254184 78.0186 4.77802 78.0186 4.82888Z" fill="#4E5FFF"/>
+    <path d="M55.2874 4.08903H63.6559V12.2465C63.6559 13.79 63.3533 14.6825 61.8124 14.6825H53.7744V18.7537H63.6915C68.1415 18.7537 68.1949 14.4944 68.1949 14.4512V0.0153809H55.29V4.08903H55.2874Z" fill="#4E5FFF"/>
+    <path d="M75.1395 14.6824H71.0684V18.7535H75.1395V14.6824Z" fill="#4E5FFF"/>
+    <path d="M45.6655 0.0126953H27.3926V18.7535H32.0129V4.07617L34.9652 4.08126C35.9162 4.08126 36.6918 4.85428 36.6918 5.80531V18.7535H41.3121V6.17148C41.3121 5.45948 41.1876 4.75766 40.9434 4.08126H44.2644C45.2154 4.08126 45.9885 4.85428 45.9885 5.80531V18.7535H50.6114V4.96617C50.6114 2.23769 48.3915 0.0152382 45.6655 0.0126953Z" fill="#4E5FFF"/>
+    <path d="M18.9175 0.0192871H0.644531V18.7601H5.2649V4.08277L8.21714 4.08785C9.16817 4.08785 9.94374 4.86088 9.94374 5.8119V18.7601H14.5641V6.17807C14.5641 5.46608 14.4395 4.76425 14.1954 4.08785H17.5164C18.4674 4.08785 19.2404 4.86088 19.2404 5.8119V18.7601H23.8633V4.97276C23.8659 2.24429 21.646 0.02183 18.9175 0.0192871Z" fill="#4E5FFF"/>
+    <path d="M132.41 0.0126953H114.137V18.7535H118.757V4.07617L121.709 4.08126C122.66 4.08126 123.436 4.85428 123.436 5.80531V18.7535H128.056V6.17148C128.056 5.45948 127.932 4.75766 127.688 4.08126H131.009C131.96 4.08126 132.733 4.85428 132.733 5.80531V18.7535H137.355V4.96617C137.355 2.23769 135.138 0.0152382 132.41 0.0126953Z" fill="#4E5FFF"/>
+    </svg>
+                            </a>
+                        </div>
+                        <button class="d-flex d-lg-none" onclick="hideShow()">
+                                <svg style="color: rgba(0, 9, 89, 1); background: tranparent;" width="28" height="28" viewBox="0 0 28 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.5 21H24.5V18.6667H3.5V21ZM3.5 15.1667H24.5V12.8333H3.5V15.1667ZM3.5 7V9.33333H24.5V7H3.5Z" fill="#4E5FFF"/>
+                                </svg>
+                        </button>
+                   </div>
+                   <ul id="nav_list" class="d-none d-lg-flex flex-wrap flex-column flex-lg-row mt-3 align-items-center list-unstyled ">
+                       <li class="nav-item"><a class="py-4 w-100 d-block" href="#">How It Works</a></li>
+                       <li class="nav-item"><a class="py-4 w-100 d-block" href="#">Pricing</a></li>
+                       <li class="nav-item"><a class="py-4 w-100 d-block" href="#">About</a></li>
+                       <li class="nav-item"><a class="py-4 w-100 d-block mr-0 mr-lg-3" href="#">Login</a></li>
+                       <li class="nav-item">
+                           <a class="w-100 d-block btn_primary" href="#" style="padding-left: 1.5rem; padding-right: 1.5rem; padding-top: 0.875rem; padding-bottom: 0.875rem; color: #fff;">
+                               Get Started
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+          </div>
+        </nav>
+        
+        <main>
+            <header class="d-flex justify-content-between align-items-center">
+                <div style="position: relative" class="container">
+                    <div style="text-align: center; max-width: 48rem;" class="mx-auto">
+                        <h1>Get your MMJ license remotely through a licensed provider.</h1>
+                        <p style="max-width: 32rem; line-height: 1.5rem; padding-top: 2rem; padding-bottom: 2.5rem;" class="mx-auto">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum laboriosam fugit eveniet doloremque velit totam?
+                        </p>
+                        <select class="custom-select btn_primary dropdown_states">
+                              <option selected>Select state</option>
+                              <option value="1">Alaska</option>
+                              <option value="2">Alabama</option>
+                              <option value="3">Arkansas</option>
+                              <option value="4">Arizona</option>
+                              <option value="5">California</option>
+                              <option value="6">Colorado</option>
+                              <option value="7">Connecticut</option>
+                              <option value="8">Delaware</option>
+                              <option value="9">Florida</option>
+                              <option value="10">Georgia</option>
+                              <option value="11">Hawaii</option>
+                              <option value="12">Iowa</option>
+                              <option value="13">Idaho</option>
+                              <option value="14">Illinois</option>
+                              <option value="15">Indiana</option>
+                              <option value="16">Kansas</option>
+                              <option value="17">Kentucky</option>
+                              <option value="18">Louisiana</option>
+                              <option value="19">Massachusetts</option>
+                              <option value="20">Maryland</option>
+                              <option value="21">Maine</option>
+                              <option value="22">Michigan</option>
+                              <option value="23">Minnesota</option>
+                              <option value="24">Missouri</option>
+                              <option value="25">Mississippi</option>
+                              <option value="26">Montana</option>
+                              <option value="27">North Carolina</option>
+                              <option value="28">North Dakota</option>
+                              <option value="29">Nebraska</option>
+                              <option value="30">New Hampshire</option>
+                              <option value="31">New Jersey</option>
+                              <option value="32">New Mexico</option>
+                              <option value="33">Nevada</option>
+                              <option value="34">New York</option>
+                              <option value="35">Ohio</option>
+                              <option value="36">Oklahoma</option>
+                              <option value="37">Oregon</option>
+                              <option value="38">Pennsylvania</option>
+                              <option value="39">Rhode Island</option>
+                              <option value="40">South Carolina</option>
+                              <option value="41">South Dakota</option>
+                              <option value="42">Tennessee</option>
+                              <option value="43">Texas</option>
+                              <option value="44">Utah</option>
+                              <option value="45">Virginia</option>
+                              <option value="46">Vermont</option>
+                              <option value="47">Washington</option>
+                              <option value="48">Wisconsin</option>
+                              <option value="49">West Virginia</option>
+                              <option value="50">Wyoming</option>
+                              
+                        </select>
+                    </div>
+                    <div>
+                        <div class="img1"><img src="assets/img/Group%202%20left-1.png"></div>
+                        <div class="img2"><img src="assets/img/Group%202%20left-2.png"></div>
+                        <div class="img3"><img src="assets/img/Group%202%20right.png"></div>
+                    </div>
+                </div>
+            </header>
+            
+            <!---------------------------- Info Section -------------------------->
+            <section class="INFO-SECTION info_section text-secondary">
+                <div class="container" style="padding-top: 6rem; padding-bottom: 6rem">
+                    <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 1rem;">
+                        <div class="infoSection_leftSide">
+                            <div style="max-width: 36rem;">
+                                <h2>MMJ.com is the leading medical marijuana telehealth network.</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <a href="#" class="btn_secondary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="infoSection_rightSide">
+                            <div style="padding-top: 1rem; padding-bottom: 1rem; max-width: 396px;">
+                                <img class="homepage_img_1" src="assets/img/main_pic_1.png" alt="learn more picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!---------------------------- How It Works -------------------------->
+            <section class="howItWorks bg_light_purple">
+               <div class="container" style="padding-top: 6rem; padding-bottom: 6rem">
+                   <div class="header text-center">
+                       <p>How it works</p>
+                       <h2>An easier way to get your MMJ licence.</h2>
+                   </div>
+                   <div style="display: block; margin-top: 2.5rem; margin-bottom: 2.5rem; height: 1px"></div>
+                   <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 1rem; row-gap: 7rem;">
+                       <div class="section_1">
+                           <div class="d-flex flex-column flex-lg-row">
+                               <div class="leftSide">
+                                   <div class="leftSideInner">
+                                       <div style="width: 100%; max-width: 24rem; text-align: center; margin-left: auto;
+                                        margin-right: auto;">
+                                            <div class="icon_box">
+                                                <svg style="transform: translate(3px, -3px);" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.4212 18.7501C17.1822 18.9903 16.8963 19.1788 16.5812 19.3038L12.1625 21.0751C11.7076 21.2527 11.2111 21.2951 10.7328 21.197C10.2544 21.099 9.81457 20.8648 9.46625 20.5226C9.12023 20.1766 8.88333 19.7368 8.78489 19.2575C8.68646 18.7782 8.73083 18.2806 8.9125 17.8263L10.6787 13.4101C10.805 13.095 10.9938 12.8088 11.2337 12.5688L18.5925 5.2088C18.6355 5.16509 18.6648 5.10975 18.6767 5.04959C18.6885 4.98944 18.6826 4.92712 18.6594 4.87034C18.6363 4.81356 18.597 4.7648 18.5465 4.73009C18.4959 4.69538 18.4363 4.67625 18.375 4.67505H4.21C3.17632 4.67505 2.18497 5.08568 1.45405 5.8166C0.723128 6.54752 0.3125 7.53887 0.3125 8.57255V25.7788C0.3125 26.2906 0.413321 26.7973 0.609204 27.2701C0.805087 27.7429 1.09219 28.1725 1.45413 28.5343C1.81606 28.8961 2.24573 29.1831 2.71859 29.3788C3.19144 29.5746 3.69823 29.6752 4.21 29.6751H21.4162C21.928 29.6752 22.4347 29.5746 22.9075 29.3788C23.3803 29.1831 23.8098 28.8961 24.1717 28.5342C24.5335 28.1724 24.8205 27.7428 25.0162 27.27C25.212 26.7972 25.3127 26.2905 25.3125 25.7788V11.6176C25.3124 11.5559 25.294 11.4957 25.2597 11.4445C25.2255 11.3933 25.1768 11.3533 25.1199 11.3297C25.063 11.306 25.0003 11.2997 24.9399 11.3116C24.8794 11.3234 24.8238 11.3529 24.78 11.3963L17.4212 18.7501Z" fill="#4E5FFF"/>
+<path d="M23.2105 4.12505C23.0911 4.01199 22.933 3.94897 22.7686 3.94897C22.6042 3.94897 22.4461 4.01199 22.3267 4.12505L12.5605 13.8925C12.5007 13.9526 12.4535 14.024 12.4217 14.1025L10.6542 18.5225C10.6087 18.6363 10.5975 18.7609 10.6222 18.8809C10.6468 19.0009 10.7062 19.111 10.793 19.1975C10.8811 19.2813 10.991 19.3386 11.1101 19.3629C11.2293 19.3872 11.3528 19.3776 11.4667 19.335L15.8855 17.5675C15.9642 17.536 16.0356 17.4888 16.0955 17.4288L25.863 7.66255C25.9802 7.54534 26.046 7.3864 26.046 7.22067C26.046 7.05495 25.9802 6.896 25.863 6.7788L23.2105 4.12505Z" fill="#2CEEF0"/>
+<path d="M28.9561 4.56756C29.4248 4.09874 29.6881 3.46297 29.6881 2.80006C29.6881 2.13715 29.4248 1.50138 28.9561 1.03256C28.4799 0.578054 27.8469 0.324463 27.1886 0.324463C26.5303 0.324463 25.8973 0.578054 25.4211 1.03256L24.0949 2.35881C24.0755 2.38378 24.058 2.41009 24.0424 2.43756C23.9608 2.54112 23.9147 2.66825 23.9111 2.80006C23.9112 2.88228 23.9274 2.96369 23.9589 3.03962C23.9905 3.11555 24.0367 3.18451 24.0949 3.24256L26.7499 5.89381C26.8548 6.00146 26.996 6.06611 27.1461 6.07512C27.2961 6.08414 27.4441 6.03687 27.5611 5.94256C27.5865 5.92821 27.6108 5.91191 27.6336 5.89381L28.9561 4.56756Z" fill="#2CEEF0"/>
+</svg>
+                                            </div>
+                                            <span>Step 1</span>
+                                            <h3>Take a free pre-assessment</h3>
+                                            <p>Find out if you qualify for an MMJ card by answering a few simple questions. Once completed, schedule a virtual appointment with a licensed MMJ doctor. </p>
+                                        </div>
+                                   </div>
+                               </div>
+                               <div class="rightSide">
+                                   <img class="homepage_img_2" src="assets/img/main_pic_2.png" alt="take free assesment">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="section_2">
+                           <div class="d-flex flex-column flex-lg-row">
+                               <div class="leftSide">
+                                   <div class="leftSideInner">
+                                       <div style="width: 100%; max-width: 24rem; text-align: center; margin-left: auto;
+                                        margin-right: auto;">
+                                            <div class="icon_box">
+                                                <svg style="transform: translate(3px, -3px);" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.7396 16.6667C13.3878 16.6667 14.9989 16.1779 16.3693 15.2622C17.7397 14.3466 18.8078 13.0451 19.4386 11.5224C20.0693 9.99965 20.2343 8.32409 19.9128 6.70758C19.5912 5.09108 18.7976 3.60622 17.6321 2.44078C16.4667 1.27534 14.9818 0.48167 13.3653 0.160126C11.7488 -0.161417 10.0733 0.0036107 8.55055 0.634341C7.02784 1.26507 5.72635 2.33318 4.81067 3.70358C3.89499 5.07399 3.40625 6.68516 3.40625 8.33334C3.4089 10.5427 4.28772 12.6607 5.84995 14.223C7.41218 15.7852 9.53026 16.664 11.7396 16.6667ZM6.90625 7.095C6.93944 6.9701 7.00124 6.85464 7.08674 6.75773C7.17224 6.66082 7.27911 6.58512 7.3989 6.53662C7.51869 6.48812 7.64812 6.46815 7.77696 6.47828C7.9058 6.48842 8.03051 6.52838 8.14125 6.595C9.95184 7.71675 12.0364 8.31818 14.1662 8.33334C14.6851 8.33242 15.2031 8.29342 15.7162 8.21667C15.8446 8.19723 15.9757 8.20805 16.0991 8.24825C16.2226 8.28846 16.3349 8.35694 16.4272 8.44824C16.5194 8.53955 16.5891 8.65114 16.6306 8.77414C16.6721 8.89713 16.6843 9.02812 16.6662 9.15667C16.4532 10.3878 15.7868 11.4946 14.7985 12.259C13.8101 13.0235 12.5714 13.3901 11.3262 13.2869C10.081 13.1836 8.91961 12.6178 8.07071 11.701C7.2218 10.7842 6.74692 9.58279 6.73958 8.33334C6.73938 7.91495 6.79543 7.49844 6.90625 7.095Z" fill="#4E5FFF"/>
+<path d="M15.7597 25.8333C15.761 24.8286 16.066 23.8477 16.6347 23.0193C17.2034 22.191 18.0092 21.5539 18.9464 21.1917C19.087 21.1362 19.2098 21.0436 19.3018 20.9236C19.3938 20.8037 19.4514 20.661 19.4686 20.5109C19.4857 20.3607 19.4617 20.2087 19.399 20.0712C19.3364 19.9336 19.2376 19.8157 19.1131 19.73C17.0514 18.2884 14.5988 17.5104 12.0831 17.5C9.39469 17.5122 6.78106 18.3859 4.62579 19.9929C2.47052 21.5998 0.887131 23.8553 0.108051 26.4283C0.0709295 26.5527 0.0633736 26.684 0.0859853 26.8118C0.108597 26.9397 0.160751 27.0604 0.238291 27.1645C0.315831 27.2686 0.416613 27.3531 0.532604 27.4114C0.648595 27.4696 0.776589 27.5 0.906384 27.5H14.9264C15.1474 27.5 15.3594 27.4122 15.5156 27.2559C15.6719 27.0996 15.7597 26.8877 15.7597 26.6667V25.8333Z" fill="#4E5FFF"/>
+<path d="M38.8785 25.8617L34.2018 27.1084C34.1401 27.1247 34.0754 27.1268 34.0127 27.1144C33.95 27.1019 33.891 27.0754 33.8402 27.0367C33.7883 26.998 33.7463 26.9477 33.7173 26.8898C33.6884 26.8319 33.6734 26.7681 33.6735 26.7034V25.8334C33.6735 25.1703 33.4101 24.5344 32.9413 24.0656C32.4724 23.5968 31.8365 23.3334 31.1735 23.3334H20.7568C20.0938 23.3334 19.4579 23.5968 18.9891 24.0656C18.5202 24.5344 18.2568 25.1703 18.2568 25.8334V37.5C18.2568 38.1631 18.5202 38.799 18.9891 39.2678C19.4579 39.7367 20.0938 40 20.7568 40H31.1735C31.8365 40 32.4724 39.7367 32.9413 39.2678C33.4101 38.799 33.6735 38.1631 33.6735 37.5V36.6267C33.6734 36.562 33.6884 36.4982 33.7173 36.4403C33.7463 36.3824 33.7883 36.3321 33.8402 36.2934C33.891 36.2547 33.95 36.2282 34.0127 36.2157C34.0754 36.2033 34.1401 36.2054 34.2018 36.2217L38.8785 37.4684C39.0017 37.5013 39.1307 37.5055 39.2557 37.4807C39.3808 37.4558 39.4985 37.4027 39.5997 37.3252C39.701 37.2478 39.7831 37.1482 39.8398 37.034C39.8965 36.9198 39.9263 36.7942 39.9268 36.6667V26.6667C39.9268 26.539 39.8974 26.4129 39.8409 26.2983C39.7844 26.1837 39.7024 26.0837 39.601 26.0059C39.4997 25.9281 39.3818 25.8746 39.2566 25.8496C39.1313 25.8246 39.0019 25.8287 38.8785 25.8617Z" fill="#2CEEF0"/>
+                                                </svg>
+                                            </div>
+                                            <span>Step 2</span>
+                                            <h3>Attend your virtual appointment with an MMJ doctor</h3>
+                                            <p>Log in to your patient profile from a mobile device or desktop and join your virtual appointment with a licensed MMJ doctor. Virtual appointments last approximately 10-15 minutes.</p>
+                                        </div>
+                                   </div>
+                               </div>
+                               <div class="rightSide">
+                                   <img class="homepage_img_3" src="assets/img/main_pic_3.png" alt="virtual appointment">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="section_3">
+                           <div class="d-flex flex-column flex-lg-row">
+                               <div class="leftSide">
+                                   <div class="leftSideInner">
+                                       <div style="width: 100%; max-width: 24rem; text-align: center; margin-left: auto;
+                                        margin-right: auto;">
+                                            <div class="icon_box">
+                                                <svg style="transform: translate(3px, -3px);" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.7396 16.6667C13.3878 16.6667 14.9989 16.1779 16.3693 15.2622C17.7397 14.3466 18.8078 13.0451 19.4386 11.5224C20.0693 9.99965 20.2343 8.32409 19.9128 6.70758C19.5912 5.09108 18.7976 3.60622 17.6321 2.44078C16.4667 1.27534 14.9818 0.48167 13.3653 0.160126C11.7488 -0.161417 10.0733 0.0036107 8.55055 0.634341C7.02784 1.26507 5.72635 2.33318 4.81067 3.70358C3.89499 5.07399 3.40625 6.68516 3.40625 8.33334C3.4089 10.5427 4.28772 12.6607 5.84995 14.223C7.41218 15.7852 9.53026 16.664 11.7396 16.6667ZM6.90625 7.095C6.93944 6.9701 7.00124 6.85464 7.08674 6.75773C7.17224 6.66082 7.27911 6.58512 7.3989 6.53662C7.51869 6.48812 7.64812 6.46815 7.77696 6.47828C7.9058 6.48842 8.03051 6.52838 8.14125 6.595C9.95184 7.71675 12.0364 8.31818 14.1662 8.33334C14.6851 8.33242 15.2031 8.29342 15.7162 8.21667C15.8446 8.19723 15.9757 8.20805 16.0991 8.24825C16.2226 8.28846 16.3349 8.35694 16.4272 8.44824C16.5194 8.53955 16.5891 8.65114 16.6306 8.77414C16.6721 8.89713 16.6843 9.02812 16.6662 9.15667C16.4532 10.3878 15.7868 11.4946 14.7985 12.259C13.8101 13.0235 12.5714 13.3901 11.3262 13.2869C10.081 13.1836 8.91961 12.6178 8.07071 11.701C7.2218 10.7842 6.74692 9.58279 6.73958 8.33334C6.73938 7.91495 6.79543 7.49844 6.90625 7.095Z" fill="#4E5FFF"/>
+<path d="M15.7597 25.8333C15.761 24.8286 16.066 23.8477 16.6347 23.0193C17.2034 22.191 18.0092 21.5539 18.9464 21.1917C19.087 21.1362 19.2098 21.0436 19.3018 20.9236C19.3938 20.8037 19.4514 20.661 19.4686 20.5109C19.4857 20.3607 19.4617 20.2087 19.399 20.0712C19.3364 19.9336 19.2376 19.8157 19.1131 19.73C17.0514 18.2884 14.5988 17.5104 12.0831 17.5C9.39469 17.5122 6.78106 18.3859 4.62579 19.9929C2.47052 21.5998 0.887131 23.8553 0.108051 26.4283C0.0709295 26.5527 0.0633736 26.684 0.0859853 26.8118C0.108597 26.9397 0.160751 27.0604 0.238291 27.1645C0.315831 27.2686 0.416613 27.3531 0.532604 27.4114C0.648595 27.4696 0.776589 27.5 0.906384 27.5H14.9264C15.1474 27.5 15.3594 27.4122 15.5156 27.2559C15.6719 27.0996 15.7597 26.8877 15.7597 26.6667V25.8333Z" fill="#4E5FFF"/>
+<path d="M38.8785 25.8616L34.2018 27.1083C34.1401 27.1247 34.0754 27.1267 34.0127 27.1143C33.95 27.1019 33.891 27.0753 33.8402 27.0366C33.7883 26.9979 33.7463 26.9476 33.7173 26.8897C33.6884 26.8319 33.6734 26.768 33.6735 26.7033V25.8333C33.6735 25.1703 33.4101 24.5344 32.9413 24.0655C32.4724 23.5967 31.8365 23.3333 31.1735 23.3333H20.7568C20.0938 23.3333 19.4579 23.5967 18.9891 24.0655C18.5202 24.5344 18.2568 25.1703 18.2568 25.8333V37.5C18.2568 38.163 18.5202 38.7989 18.9891 39.2678C19.4579 39.7366 20.0938 40 20.7568 40H31.1735C31.8365 40 32.4724 39.7366 32.9413 39.2678C33.4101 38.7989 33.6735 38.163 33.6735 37.5V36.6267C33.6734 36.5619 33.6884 36.4981 33.7173 36.4402C33.7463 36.3823 33.7883 36.332 33.8402 36.2933C33.891 36.2547 33.95 36.2281 34.0127 36.2157C34.0754 36.2033 34.1401 36.2053 34.2018 36.2217L38.8785 37.4683C39.0017 37.5012 39.1307 37.5054 39.2557 37.4806C39.3808 37.4558 39.4985 37.4026 39.5997 37.3252C39.701 37.2477 39.7831 37.1481 39.8398 37.0339C39.8965 36.9198 39.9263 36.7941 39.9268 36.6667V26.6666C39.9268 26.5389 39.8974 26.4129 39.8409 26.2983C39.7844 26.1837 39.7024 26.0836 39.601 26.0058C39.4997 25.928 39.3818 25.8745 39.2566 25.8495C39.1313 25.8245 39.0019 25.8287 38.8785 25.8616Z" fill="#2CEEF0"/>
+</svg>
+                                            </div>
+                                            <span>Step 3</span>
+                                            <h3>Receive recommendation and apply to state registry</h3>
+                                            <p>After you receive your MMJ recommendation, we will guide you to the state’s registry. There, you will pay the registration fee (typically $50), apply to the state registry, and receive your MMJ card.</p>
+                                        </div>
+                                   </div>
+                               </div>
+                               <div class="rightSide">
+                                   <img class="homepage_img_4" src="assets/img/main_pic_4.png" alt="take free assesment">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="section_4">
+                           <div class="d-flex flex-column flex-lg-row">
+                               <div class="leftSide">
+                                   <div class="leftSideInner">
+                                       <div style="width: 100%; max-width: 24rem; text-align: center; margin-left: auto;
+                                        margin-right: auto;">
+                                            <div class="icon_box">
+                                                <svg style="transform: translate(3px, -3px);" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.4212 18.7501C17.1822 18.9903 16.8963 19.1788 16.5812 19.3038L12.1625 21.0751C11.7076 21.2527 11.2111 21.2951 10.7328 21.197C10.2544 21.099 9.81457 20.8648 9.46625 20.5226C9.12023 20.1766 8.88333 19.7368 8.78489 19.2575C8.68646 18.7782 8.73083 18.2806 8.9125 17.8263L10.6787 13.4101C10.805 13.095 10.9938 12.8088 11.2337 12.5688L18.5925 5.2088C18.6355 5.16509 18.6648 5.10975 18.6767 5.04959C18.6885 4.98944 18.6826 4.92712 18.6594 4.87034C18.6363 4.81356 18.597 4.7648 18.5465 4.73009C18.4959 4.69538 18.4363 4.67625 18.375 4.67505H4.21C3.17632 4.67505 2.18497 5.08568 1.45405 5.8166C0.723128 6.54752 0.3125 7.53887 0.3125 8.57255V25.7788C0.3125 26.2906 0.413321 26.7973 0.609204 27.2701C0.805087 27.7429 1.09219 28.1725 1.45413 28.5343C1.81606 28.8961 2.24573 29.1831 2.71859 29.3788C3.19144 29.5746 3.69823 29.6752 4.21 29.6751H21.4162C21.928 29.6752 22.4347 29.5746 22.9075 29.3788C23.3803 29.1831 23.8098 28.8961 24.1717 28.5342C24.5335 28.1724 24.8205 27.7428 25.0162 27.27C25.212 26.7972 25.3127 26.2905 25.3125 25.7788V11.6176C25.3124 11.5559 25.294 11.4957 25.2597 11.4445C25.2255 11.3933 25.1768 11.3533 25.1199 11.3297C25.063 11.306 25.0003 11.2997 24.9399 11.3116C24.8794 11.3234 24.8238 11.3529 24.78 11.3963L17.4212 18.7501Z" fill="#4E5FFF"/>
+<path d="M23.2105 4.12505C23.0911 4.01199 22.933 3.94897 22.7686 3.94897C22.6042 3.94897 22.4461 4.01199 22.3267 4.12505L12.5605 13.8925C12.5007 13.9526 12.4535 14.024 12.4217 14.1025L10.6542 18.5225C10.6087 18.6363 10.5975 18.7609 10.6222 18.8809C10.6468 19.0009 10.7062 19.111 10.793 19.1975C10.8811 19.2813 10.991 19.3386 11.1101 19.3629C11.2293 19.3872 11.3528 19.3776 11.4667 19.335L15.8855 17.5675C15.9642 17.536 16.0356 17.4888 16.0955 17.4288L25.863 7.66255C25.9802 7.54534 26.046 7.3864 26.046 7.22067C26.046 7.05495 25.9802 6.896 25.863 6.7788L23.2105 4.12505Z" fill="#2CEEF0"/>
+<path d="M28.9561 4.56756C29.4248 4.09874 29.6881 3.46297 29.6881 2.80006C29.6881 2.13715 29.4248 1.50138 28.9561 1.03256C28.4799 0.578054 27.8469 0.324463 27.1886 0.324463C26.5303 0.324463 25.8973 0.578054 25.4211 1.03256L24.0949 2.35881C24.0755 2.38378 24.058 2.41009 24.0424 2.43756C23.9608 2.54112 23.9147 2.66825 23.9111 2.80006C23.9112 2.88228 23.9274 2.96369 23.9589 3.03962C23.9905 3.11555 24.0367 3.18451 24.0949 3.24256L26.7499 5.89381C26.8548 6.00146 26.996 6.06611 27.1461 6.07512C27.2961 6.08414 27.4441 6.03687 27.5611 5.94256C27.5865 5.92821 27.6108 5.91191 27.6336 5.89381L28.9561 4.56756Z" fill="#2CEEF0"/>
+</svg>
+                                            </div>
+                                            <span>Step 4</span>
+                                            <h3>Take a free pre-assessment</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem, recusandae expedita quidem harum qui eius reprehenderit porro aliquid odit!</p>
+                                        </div>
+                                   </div>
+                               </div>
+                               <div class="rightSide">
+                                   <img class="homepage_img_4" src="assets/img/main_pic_2.png" alt="take free assesment">
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </section>
+            
+            <!---------------------------- TESTIMONIAL --------------------------->
+            <section class="testimonial">
+                <div class="container" style="padding-top: 6rem; padding-bottom: 6rem">
+                    <h1>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</h1>
+                    <div class="user">
+                        <div>
+                            <img src="assets/img/avatar.jpg" alt="user display picture">
+                        </div>
+                        <div>
+                            <p>Christy Lamb</p>
+                            <span>MMJ License Holder</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!---------------------------- MMJ PROVIDERS -------------------------->
+            <section class="mmjProviders">
+                <div class="container" style="padding-top: 6rem; padding-bottom: 6rem;">
+                    <h2>Qualified Arizona MMJ providers.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices maximus nulla non tristique. Nulla arcu libero, semper eu commodo ac, commodo in nisl.</p>
+                    <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 1rem;">
+                        <div class="supplier mt-4">
+                            <div class="supplier_container">
+                                <div style="height: 18rem; background-color: rgba(78, 95, 255, 1); border-top-left-radius: 36px; border-top-right-radius: 36px;">
+                                    <div class="supplier_img1" style="display: grid; height: 18rem; justify-items: center;">
+                                        <img src="assets/img/12865-removebg-preview.png" alt="mmj provider">
+                                    </div>
+                                </div>
+                                <div style="height: 100px; border-bottom-right-radius: 36px; border-bottom-left-radius: 36px; background-color: rgba(255, 255, 255, 1;">
+                                    <h4>Name</h4>
+                                    <h6>Lorem Ipsum</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="supplier mt-4">
+                            <div class="supplier_container">
+                                <div style="height: 18rem; background-color: rgba(78, 95, 255, 1); border-top-left-radius: 36px; border-top-right-radius: 36px;">
+                                    <div class="supplier_img2" style="display: grid; height: 18rem; justify-items: center;">
+                                        <img src="assets/img/5790-removebg-preview.png" alt="mmj provider">
+                                    </div>
+                                </div>
+                                <div style="height: 100px; border-bottom-right-radius: 36px; border-bottom-left-radius: 36px; background-color: rgba(255, 255, 255, 1;">
+                                    <h4>Name</h4>
+                                    <h6>Lorem Ipsum</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="supplier mt-4">
+                            <div class="supplier_container">
+                                <div style="height: 18rem; background-color: rgba(78, 95, 255, 1); border-top-left-radius: 36px; border-top-right-radius: 36px;">
+                                    <div class="supplier_img3" style="display: grid; height: 18rem; justify-items: center;">
+                                        <img src="assets/img/39381-removebg-preview.png" alt="mmj provider">
+                                    </div>
+                                </div>
+                                <div style="height: 100px; border-bottom-right-radius: 36px; border-bottom-left-radius: 36px; background-color: rgba(255, 255, 255, 1;">
+                                    <h4>Name</h4>
+                                    <h6>Lorem Ipsum</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-------------------------------- FAQs ------------------------------->
+            <section class="faqs">
+                <div class="container" style="padding-top: 2rem; padding-bottom: 14rem;">
+                    <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr));">
+                        <div class="leftCol" style="padding-right: 1rem;">
+                            <div class="max-width: 36rem; padding-bottom: 2rem;">
+                                <h2>Have a question? We have answers.</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices maximus nulla non tristique. Nulla arcu libero, semper eu commodo ac, commodo in nisl.</p>
+                                <a href="#" class="btn_secondary my-3 mb-5">View all resources</a>
+                            </div>
+                        </div>
+                        <div class="rightCol">
+                            <div class="accordion mb-4" id="accordionExample">
+                                    
+                                <!-- Question 1 -->
+                                <div class="card">
+                                  <div class="card-header border-box" id="headingOne">
+                                    <h2 class="mb-0">
+                                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="d-flex flex-wrap justify-content-between" style="gap: 5px;">
+                                            <span>Whats Is A Question</span>
+                                            <span><img src="assets/img/accordian_plus_sign.svg"></span>
+                                        </div>
+                                      </button>
+                                    </h2>
+                                  </div>
+                                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body manual_cardbody">
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, doloribus!</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+    
+                                <!-- Question 2 -->
+                                <div class="card">
+                                  <div class="card-header border-box" id="headingOne">
+                                    <h2 class="mb-0">
+                                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="d-flex flex-wrap justify-content-between" style="gap: 5px;">
+                                            <span>Whats Is A Question</span>
+                                            <span><img src="assets/img/accordian_plus_sign.svg"></span>
+                                        </div>
+                                      </button>
+                                    </h2>
+                                  </div>
+                                  <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body manual_cardbody">
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, doloribus!</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+    
+                                <!-- Question 3 -->
+                                <div class="card">
+                                  <div class="card-header border-box" id="headingOne">
+                                    <h2 class="mb-0">
+                                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="d-flex flex-wrap justify-content-between" style="gap: 5px;">
+                                            <span>Whats Is A Question</span>
+                                            <span><img src="assets/img/accordian_plus_sign.svg"></span>
+                                        </div>
+                                      </button>
+                                    </h2>
+                                  </div>
+                                  <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body manual_cardbody">
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, doloribus!</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Question 4 -->
+                                <div class="card">
+                                  <div class="card-header border-box" id="headingOne">
+                                    <h2 class="mb-0">
+                                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="d-flex flex-wrap justify-content-between" style="gap: 5px;">
+                                            <span>Whats Is A Question</span>
+                                            <span><img src="assets/img/accordian_plus_sign.svg"></span>
+                                        </div>
+                                      </button>
+                                    </h2>
+                                  </div>
+                                  <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body manual_cardbody">
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, doloribus!</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Question 5 -->
+                                <div class="card">
+                                  <div class="card-header border-box" id="headingOne">
+                                    <h2 class="mb-0">
+                                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="d-flex flex-wrap justify-content-between" style="gap: 5px;">
+                                            <span>Whats Is A Question</span>
+                                            <span><img src="assets/img/accordian_plus_sign.svg"></span>
+                                        </div>
+                                      </button>
+                                    </h2>
+                                  </div>
+                                  <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body manual_cardbody">
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, doloribus!</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-------------------------------- PRICING ----------------------------->
+            <section class="pricing bg_light_purple">
+               <div class="container pricing_container">
+                      <div class="pricingHeader" style="text-align: center">
+                            <h6>Pricing</h6>
+                            <h2>Transparent &amp; affordable.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices maximus nulla non tristique.</p>
+                     </div>
+                     <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); margin-top: 3.5rem; gap: 1rem;">
+                         <div class="leftBox">
+                             <div class="leftBox_container">
+                                 <div class="icon_container">
+                                     <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.113 5.33291C22.113 8.95409 25.0528 11.8896 28.6794 11.8896C29.0787 11.8877 29.477 11.8494 29.8693 11.7751V24.7741C29.8693 30.2428 26.6435 33.4782 21.1667 33.4782H9.23837C3.74731 33.4782 0.521484 30.2428 0.521484 24.7741V12.8631C0.521484 7.39442 3.74731 4.13037 9.23837 4.13037H22.2276C22.1507 4.52657 22.1122 4.9293 22.113 5.33291ZM18.701 21.8965L23.3604 15.8837V15.855C23.7594 15.3191 23.6577 14.5633 23.131 14.1514C22.8762 13.9548 22.5524 13.8696 22.2337 13.9155C21.9147 13.9613 21.6281 14.1343 21.4393 14.3948L17.5109 19.4484L13.0378 15.9266C12.7825 15.7277 12.4576 15.6398 12.1365 15.6829C11.8155 15.7261 11.5254 15.8965 11.3317 16.1557L6.5145 22.3688C6.34518 22.5799 6.25402 22.8429 6.25643 23.1132C6.22849 23.6598 6.5736 24.1562 7.09617 24.3212C7.61873 24.4862 8.18693 24.278 8.47867 23.8148L12.5074 18.6038L16.9806 22.1112C17.2349 22.3163 17.562 22.4092 17.8864 22.3688C18.2109 22.3284 18.5048 22.1578 18.701 21.8965Z" fill="#4E5FFF"/>
+                                        <circle cx="29.0546" cy="4.94572" r="4.07609" fill="#2CEEF0"/>
+                                    </svg>
+                                 </div>
+                                 <h3>First-time license</h3>
+                                 <h5>$150</h5>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                 <a href="#" class="btn_primary mb-4">Get Started</a>
+                             </div>
+                         </div>
+                         <div class="rightBox">
+                             <div class="rightBox_container">
+                                 <div class="icon_container">
+                                     <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.113 5.33291C22.113 8.95409 25.0528 11.8896 28.6794 11.8896C29.0787 11.8877 29.477 11.8494 29.8693 11.7751V24.7741C29.8693 30.2428 26.6435 33.4782 21.1667 33.4782H9.23837C3.74731 33.4782 0.521484 30.2428 0.521484 24.7741V12.8631C0.521484 7.39442 3.74731 4.13037 9.23837 4.13037H22.2276C22.1507 4.52657 22.1122 4.9293 22.113 5.33291ZM18.701 21.8965L23.3604 15.8837V15.855C23.7594 15.3191 23.6577 14.5633 23.131 14.1514C22.8762 13.9548 22.5524 13.8696 22.2337 13.9155C21.9147 13.9613 21.6281 14.1343 21.4393 14.3948L17.5109 19.4484L13.0378 15.9266C12.7825 15.7277 12.4576 15.6398 12.1365 15.6829C11.8155 15.7261 11.5254 15.8965 11.3317 16.1557L6.5145 22.3688C6.34518 22.5799 6.25402 22.8429 6.25643 23.1132C6.22849 23.6598 6.5736 24.1562 7.09617 24.3212C7.61873 24.4862 8.18693 24.278 8.47867 23.8148L12.5074 18.6038L16.9806 22.1112C17.2349 22.3163 17.562 22.4092 17.8864 22.3688C18.2109 22.3284 18.5048 22.1578 18.701 21.8965Z" fill="#4E5FFF"/>
+                                        <circle cx="29.0546" cy="4.94572" r="4.07609" fill="#2CEEF0"/>
+                                    </svg>
+                                 </div>
+                                 <h3>License Renewal</h3>
+                                 <h5>$150</h5>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                 <a href="#" class="btn_primary mb-4">Get Started</a>
+                             </div>
+                         </div>
+                     </div> 
+               </div>
+                    
+            </section>
+            
+            <!-------------------------------- NEED MMJ ---------------------------->
+            <section class="needMMJ">
+               <div class="container" style="padding-top: 6rem; padding-bottom: 18rem">
+                   <div class="header">
+                       <h2>Do I need an MMJ license?</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices maximus nulla non tristique.</p>
+                   </div>
+                   <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 1rem; margin-top: 3.5rem;">
+                       <div class="leftBlock mt-3">
+                           <div class="mx-auto" style="width: 100%; max-width: 32rem;">
+                               <h4>Medical Marijuana License</h4>
+                               <div class="cardMMJ">
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.762695 4.50015L4.43037 8.16631L11.7627 0.833984" stroke="#16CC12" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.762695 4.50015L4.43037 8.16631L11.7627 0.833984" stroke="#16CC12" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.762695 4.50015L4.43037 8.16631L11.7627 0.833984" stroke="#16CC12" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.762695 4.50015L4.43037 8.16631L11.7627 0.833984" stroke="#16CC12" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.762695 4.50015L4.43037 8.16631L11.7627 0.833984" stroke="#16CC12" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="rightBlock mt-3">
+                           <div class="mx-auto" style="width: 100%; max-width: 32rem;">
+                               <h4>Recreational</h4>
+                               <div class="cardMMJ">
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.762695 4.50015L4.43037 8.16631L11.7627 0.833984" stroke="#16CC12" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.762695 4.50015L4.43037 8.16631L11.7627 0.833984" stroke="#16CC12" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.762695 4.50015L4.43037 8.16631L11.7627 0.833984" stroke="#16CC12" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.7627 10.6118L1.12981 0.833984" stroke="#FF0000" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1.12988 10.6118L10.7628 0.833984" stroke="#FF0000" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                                   <p class="d-flex align-items-center my-4">
+                                       <svg class="mr-2" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.7627 10.6118L1.12981 0.833984" stroke="#FF0000" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1.12988 10.6118L10.7628 0.833984" stroke="#FF0000" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+
+                                        Lorem ipsum dolor sit amet, consectetur
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </section>
+        </main>
+        
+        <!--================================= FOOTER =============================-->
+        <footer class="bg_secondary">
+            <div class="container" style="padding-top: 2rem; padding-bottom: 3rem;" >
+                <div class="registration" style="margin-top: -220px; width: 100%; color: rgba(255, 255, 255, 1)">
+                    <div class="registration_container">
+                        <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 1rem;">
+                            <div class="reg_leftSide">
+                                <div style="margin-left: 1rem; margin-right: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                    <h2>Start your free assessment.</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices maximus.</p>
+                                    <a href="#" class="btn_white">Begin Free Assesment</a>
+                                </div>
+                            </div>
+                            <div class="reg_rightSide">
+                                <div class="img_container">
+                                    <img src="assets/img/main_pic_5_footer.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 1rem; width: 100%; padding-bottom: 1rem; padding-top: 4rem;">
+                    <div class="footer_col1">
+                        <svg style="height: 1rem; margin-top: 0.5rem;" width="115" height="16" viewBox="0 0 115 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M88.2111 0.0107422H84.1673C79.6983 0.0107422 79.5402 4.02469 79.5381 4.06955V11.7001C79.5402 11.7407 79.5723 12.7276 80.1576 13.7274C80.7002 14.6524 81.8345 15.7568 84.1673 15.7568H88.2111C92.6801 15.7568 92.8382 11.7428 92.8382 11.698V4.06742C92.836 4.02683 92.804 3.03989 92.2186 2.04014C91.6782 1.11303 90.5439 0.0107422 88.2111 0.0107422ZM89.0293 5.47518V10.2881C89.0293 11.5847 88.7751 12.3346 87.4805 12.3346H84.9021C83.6076 12.3346 83.3534 11.5847 83.3534 10.2881V5.47518C83.3534 4.1785 83.6076 3.42868 84.9021 3.42868H87.4805C88.7751 3.42868 89.0293 4.18063 89.0293 5.47518Z" fill="white"/>
+                        <path d="M65.001 4.05667V11.6979C65.0031 11.7385 65.0351 12.7254 65.6205 13.7252C66.1631 14.6502 67.2974 15.7546 69.628 15.7546H76.8826V12.3345H70.5295C69.581 12.3345 68.812 11.5655 68.812 10.617V5.38112C68.812 4.32156 69.6707 3.46066 70.7324 3.46066H76.8826V8.5191e-07H69.628C65.1612 -0.00213536 65.001 4.01394 65.001 4.05667Z" fill="white"/>
+                        <path d="M45.9048 3.43491H52.9351V10.2879C52.9351 11.5846 52.6809 12.3344 51.3864 12.3344H44.6338V15.7544H52.965C56.7034 15.7544 56.7483 12.1763 56.7483 12.14V0.0126953H45.907V3.43491H45.9048Z" fill="white"/>
+                        <path d="M62.5822 12.3345H59.1621V15.7546H62.5822V12.3345Z" fill="white"/>
+                        <path d="M37.8215 0.0107422H22.4707V15.7546H26.3522V3.42441L28.8323 3.42868C29.6313 3.42868 30.2828 4.07809 30.2828 4.87703V15.7546H34.1643V5.18465C34.1643 4.58651 34.0597 3.99692 33.8546 3.42868H36.6445C37.4434 3.42868 38.0928 4.07809 38.0928 4.87703V15.7546H41.9765V4.17209C41.9765 1.87993 40.1116 0.0128784 37.8215 0.0107422Z" fill="white"/>
+                        <path d="M15.3508 0.0161133H0V15.76H3.8815V3.42978L6.36164 3.43405C7.16059 3.43405 7.81213 4.08346 7.81213 4.88241V15.76H11.6936V5.19002C11.6936 4.59188 11.589 4.00229 11.3839 3.43405H14.1738C14.9727 3.43405 15.6221 4.08346 15.6221 4.88241V15.76H19.5058V4.17746C19.5079 1.8853 17.643 0.0182495 15.3508 0.0161133Z" fill="white"/>
+                        <path d="M110.695 0.0107422H95.3438V15.7546H99.2252V3.42441L101.705 3.42868C102.504 3.42868 103.156 4.07809 103.156 4.87703V15.7546H107.037V5.18465C107.037 4.58651 106.933 3.99692 106.728 3.42868H109.518C110.316 3.42868 110.966 4.07809 110.966 4.87703V15.7546H114.85V4.17209C114.85 1.87993 112.987 0.0128784 110.695 0.0107422Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="footer_col2">
+                        <p>Features</p>
+                        <ul>
+                            <li><a href="#">About US</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Privacy Police</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col3">
+                        <p>Proccess</p>
+                        <ul>
+                            <li><a href="#">How To Buy</a></li>
+                            <li><a href="#">View Product</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col4">
+                        <p>Company</p>
+                        <ul>
+                            <li><a href="#">About US</a></li>
+                            <li><a href="#">Location</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col5">
+                        <ul>
+                            <li><a href="#" class="py-1 d-flex align-items-center" style="column-gap: 10px">
+                                <img src="assets/img/footer_fb.svg">
+                                Facebook
+                            </a></li>
+                            <li><a href="#" class="py-1 d-flex align-items-center" style="column-gap: 10px">
+                                <img src="assets/img/footer_tweeter.svg">
+                                Twitter
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+       
+        
+         <!-- BT Poppers Bundle  -->
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+        <!-- Custom.JS -->
+        <script src="./js/actions.js"></script>       
+    </body>
+</html>
